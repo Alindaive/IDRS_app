@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Result">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="164dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/background" />
+
+    <Button
+        android:id="@+id/bt_scan2"
+        android:layout_width="216dp"
+        android:layout_height="55dp"
+        android:background="#F44336"
+        android:backgroundTint="#F44336"
+        android:foregroundTint="#3F51B5"
+        android:text="Done"
+        android:textSize="20sp"
+        app:cornerRadius="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView19"
+        app:layout_constraintVertical_bias="0.65"
+        app:strokeColor="#009688" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="341dp"
+        android:layout_height="50dp"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:text="First Name : "
+
+        android:textColor="#FFFFFF"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.795"></TextView>
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="341dp"
+        android:layout_height="53dp"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:text="Nationality :"
+
+        android:textColor="#FFFFFF"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.666"></TextView>
+
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="341dp"
+        android:layout_height="51dp"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:text="Phone Number : "
+
+
+        android:textColor="#FFFFFF"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.732"></TextView>
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="341dp"
+        android:layout_height="50dp"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:text="Last Name : "
+
+        android:textColor="#FFFFFF"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.535"></TextView>
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="341dp"
+        android:layout_height="50dp"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:text="Email  : "
+
+        android:textColor="#FFFFFF"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.599"></TextView>
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="338dp"
+        android:layout_height="434dp"
+        android:layout_marginBottom="-50dp"
+        android:layout_marginEnd="28dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView21"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/dance" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="218dp"
+        android:layout_height="191dp"
+        android:layout_marginEnd="-20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/shofar" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
